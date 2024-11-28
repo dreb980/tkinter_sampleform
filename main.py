@@ -25,11 +25,6 @@ email_label.pack()
 email_entry = tk.Entry(window)
 email_entry.pack()
 
-email_label = tk.Label(window, text="Reason for registration:")
-email_label.pack()
-email_entry = tk.Entry(window)
-email_entry.pack()
-
 submit_button = tk.Button(window, text="SUBMIT", command=submit_info)
 submit_button.pack()
 
